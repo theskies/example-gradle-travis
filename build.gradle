@@ -14,6 +14,7 @@ eclipse {
 
 repositories {
     mavenCentral()
+   maven {url "http://repo.spring.io/plugins-release/"}
 }
 
 //Don't bring in transitive dependencies for the example results
